@@ -3,11 +3,10 @@
 
 int main()
 {
-     printf("    /|\n");
-     printf("   / |\n");
-     printf("  /  |\n");
-     printf(" /   |\n");
-     printf("/____|\n");
-
-    return 0;
+     char text1= 'A';
+     char text2[]= "lol";
+     int no= 3;
+     float no2= 23.9;
+     printf("%c %s %d %f", text1,text2,no,no2);
+     return 0;
 }
